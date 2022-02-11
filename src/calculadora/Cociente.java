@@ -8,6 +8,11 @@ package calculadora;
  */
 
 public class Cociente {
+	
+	private int inv1, raiz1;
+	private double n1, n2;
+
+	
 
 	
 	/**
@@ -57,5 +62,51 @@ public class Cociente {
 	public double raiz (double raiz1) {
 		return Math.sqrt(raiz1);
 	}
+
+	public Cociente(int inv1, int raiz1, double n1, double n2) {
+		super();
+		this.inv1 = inv1;
+		this.raiz1 = raiz1;
+		this.n1 = n1;
+		this.n2 = n2;
+	}
+
+	public Cociente() {
+		super();
+	}
+
+	public int getInv1() {
+		return inv1;
+	}
+
+	public void setInv1(int inv1) {
+		this.inv1 = inv1;
+	}
+
+	public int getRaiz1() {
+		return raiz1;
+	}
+
+	public void setRaiz1(int raiz1) {
+		this.raiz1 = raiz1;
+	}
+
+	public double getN1() {
+		return n1;
+	}
+
+	public void setN1(double n1) {
+		this.n1 = n1;
+	}
+
+	public double getN2() {
+		return n2;
+	}
+
+	public void setN2(double n2) {
+		this.n2 = n2;
+	}
+	
+	
 }
 
