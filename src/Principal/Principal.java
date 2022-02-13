@@ -18,6 +18,8 @@ public class Principal {
 	    
 	    Cociente cociente2 = new Cociente();
         System.out.println(cociente2.raiz(64));
+        
+    
 
 	}
 }
