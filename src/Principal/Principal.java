@@ -1,6 +1,8 @@
 package Principal;
 
 import calculadora.Cociente;
+import calculadora.Producto;
+import calculadora.Resta_1;
 import calculadora.Suma;
 
 public class Principal {
@@ -18,6 +20,12 @@ public class Principal {
 	    
 	    Cociente cociente2 = new Cociente();
         System.out.println(cociente2.raiz(64));
+        
+        Producto producto1 = new Producto();
+        System.out.println(producto1.productoEnteros(6, 8));
+        
+        Resta_1 resta1 = new Resta_1();
+        System.out.println(resta1.restaEnteros(10, 5));
         
     
 
