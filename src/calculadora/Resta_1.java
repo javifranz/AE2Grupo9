@@ -27,8 +27,14 @@ public class Resta_1 {
 		 */
 		private int num_ent2;
 		/**
+		 * Numero entero 3
+		 */
+		private int num_ent3;
+		/**
 		 * Resultado de tipo entero
 		 */
+		
+		
 		private int resultado_entero;
 		
 		
@@ -55,6 +61,8 @@ public class Resta_1 {
 		 * Resultado de tipo real
 		 */
 		private double resultado_real;
+		
+		private double acumulado;
 		
 		
 		
@@ -99,7 +107,32 @@ public class Resta_1 {
 			return resultado_entero;
 			}
 		
+		/**
+		 * Método para restar tres números enteros
+		 * @param num_ent1 Primer número a restar
+		 * @param num_ent2 Segundo número a restar
+		 * @param num_ent3 Tercer número a restar
+		 * @return revuelve el resultado de restar los tres números
+		 */
 		
+		
+	public int restaEnteros (int num_ent1, int num_ent2, int num_ent3) {
+			
+			resultado_entero= num_ent1-num_ent2-num_ent3;
+			return resultado_entero;
+			}
+	
+    /**
+     * Es método resta con valor valor acumulado
+     * @param num_real1 es el número cuyo valor acumularemos
+     * @return devuelve el valor acumulado
+     */
+    
+	
+   	public double resta (double num_real1) {
+		acumulado = acumulado - num_real1;
+   		return acumulado;
+   	}
 		
 }
 
