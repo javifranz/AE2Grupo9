@@ -53,8 +53,8 @@ class SumaTest {
 	@Test
 	void testSumaDouble() {
 		Suma suma1 = new Suma();
-		double resultadoEsperado = 5.8;
-		double resultadoReal =suma1.suma(2.1,3.3,0.4);
+		double resultadoEsperado = 5.4;
+		double resultadoReal =suma1.suma(2.1,3.3);
 		assertEquals (resultadoEsperado, resultadoReal);
 	}
 
