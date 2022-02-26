@@ -133,7 +133,94 @@ public class Resta_1 {
 		acumulado = acumulado - num_real1;
    		return acumulado;
    	}
-		
+
+	public Resta_1(int num_ent1, int num_ent2, int num_ent3, int resultado_entero, double num_real1, double num_real2,
+			double num_real3, double resultado_real, double acumulado) {
+		super();
+		this.num_ent1 = num_ent1;
+		this.num_ent2 = num_ent2;
+		this.num_ent3 = num_ent3;
+		this.resultado_entero = resultado_entero;
+		this.num_real1 = num_real1;
+		this.num_real2 = num_real2;
+		this.num_real3 = num_real3;
+		this.resultado_real = resultado_real;
+		this.acumulado = acumulado;
+	}
+
+	public Resta_1() {
+		super();
+	}
+
+	public int getNum_ent1() {
+		return num_ent1;
+	}
+
+	public void setNum_ent1(int num_ent1) {
+		this.num_ent1 = num_ent1;
+	}
+
+	public int getNum_ent2() {
+		return num_ent2;
+	}
+
+	public void setNum_ent2(int num_ent2) {
+		this.num_ent2 = num_ent2;
+	}
+
+	public int getNum_ent3() {
+		return num_ent3;
+	}
+
+	public void setNum_ent3(int num_ent3) {
+		this.num_ent3 = num_ent3;
+	}
+
+	public int getResultado_entero() {
+		return resultado_entero;
+	}
+
+	
+
+	public double getNum_real1() {
+		return num_real1;
+	}
+
+	public void setNum_real1(double num_real1) {
+		this.num_real1 = num_real1;
+	}
+
+	public double getNum_real2() {
+		return num_real2;
+	}
+
+	public void setNum_real2(double num_real2) {
+		this.num_real2 = num_real2;
+	}
+
+	public double getNum_real3() {
+		return num_real3;
+	}
+
+	public void setNum_real3(double num_real3) {
+		this.num_real3 = num_real3;
+	}
+
+	public double getResultado_real() {
+		return resultado_real;
+	}
+
+
+
+	public double getAcumulado() {
+		return acumulado;
+	}
+
+	
+   	
+   	
+   	
+   	
 }
 
 
