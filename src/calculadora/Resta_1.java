@@ -131,7 +131,7 @@ public class Resta_1 {
 	
    	public double resta (double num_real1) {
 		acumulado = acumulado - num_real1;
-   		return acumulado;
+   		return acumulado--;
    	}
 
 	public Resta_1(int num_ent1, int num_ent2, int num_ent3, int resultado_entero, double num_real1, double num_real2,

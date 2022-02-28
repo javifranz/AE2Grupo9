@@ -28,12 +28,36 @@ class Resta_1Test {
 
 	@Test
 	void testRestaReales() {
-		fail("Not yet implemented");
+		Resta_1 restaA = new Resta_1();
+		double resultadoEsperado = 2.5;
+		double resultadoReal = restaA.restaReales(10.7, 8.2);
+		assertEquals (resultadoEsperado, resultadoReal);
 	}
 
 	@Test
 	void testRestaEnteros() {
-		fail("Not yet implemented");
+		Resta_1 restaB = new Resta_1();
+		int resultadoEsperado = 5;
+		int resultadoReal = restaB.restaEnteros(15, 10);
+		assertEquals (resultadoEsperado, resultadoReal);
 	}
+	
+	@Test
+	void testRestaEnterosDoubleDoubleDouble() {
+		Resta_1 restaC = new Resta_1();
+		int resultadoEsperado = 5;
+		int resultadoReal = restaC.restaEnteros(18, 7, 6);
+		assertEquals (resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	void testresta() {
+		Resta_1 restaD = new Resta_1();
+		double resultadoEsperado = 22;
+		double resultadoReal = restaD.resta(10);
+		assertEquals (resultadoEsperado, resultadoReal);
+	}
+
+	
 
 }
