@@ -58,7 +58,7 @@ public class Suma {
     
    	public double suma (double n1) {
 		acumulado = acumulado + n1;
-   		return acumulado;
+   		return acumulado++;
    	}
 
 	public Suma(double acumulado, double n1, double n2, int num1, int num2) {
